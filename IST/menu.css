@@ -1,0 +1,200 @@
+h1{
+	text-align: center;
+	text-shadow: 2px 2px 5px blue
+	}
+h4{
+	text-align:center;
+}
+
+div{
+	text-align:center;
+	white-space: nowrap
+}
+p{
+		text-align: center;
+		margin-top:0
+}
+label{
+	text-align:left;
+}
+
+#img1class{
+	height: 600px;
+	width: 600px;
+	top: 100px;
+}
+#price{
+	text-align:left;
+}
+#platter{
+	height: 650px;
+	width: 650px;
+	position:absolute;
+	left:200px
+}
+#fork{
+	position:absolute;
+	height:500px;
+	width:80px;
+	left:120px;
+	top:200px
+}
+#saladfork{
+	position:absolute;
+	height:450px;
+	width:70px;
+	left:30px;
+	top:250px
+}
+#knife{
+	position:absolute;
+	height:500px;
+	width:80px;
+	left:900px;
+	top:200px
+}
+#soupspoon{
+	position:absolute;
+	height:500px;
+	width:80px;
+	left:1000px;
+	top:200px
+}
+#spoon{
+	position:absolute;
+	height:400px;
+	width:70px;
+	left:1100px;
+	top:200px
+}#paper2{
+	position:absolute;
+	height:500px;
+	width:250px;
+	left: 1230px;
+	top:100px
+}
+#bill{
+	position:absolute;
+	margin-left:1230px;
+	margin-top:60px
+}
+#billprice{
+	position:absolute;
+	margin-left:1340px;
+	margin-top:280px
+}
+#bakedpotato{
+	position:absolute;
+	height:250px;
+	width:250px;
+	margin-left:220px
+}
+#asparagus{
+	position:absolute;
+	height:250px;
+	width:250px;
+	margin-left:400px
+}
+#broccoli{
+	position:absolute;
+	height:250px;
+	width:250px;
+	margin-left:40px
+}
+#carrots{
+	position:absolute;
+	height:250px;
+	width:250px;
+	margin-top:80px;
+	margin-left:40px
+}
+#chickenfingers{
+	position:absolute;
+	height:220px;
+	width:220px;
+	margin-top:80px;
+	margin-left:150px
+}
+#cordonbleu{
+	position:absolute;
+	height:220px;
+	width:220px;
+	margin-top:80px;
+	margin-left:250px
+}
+#hamburger{
+	position:absolute;
+	height:220px;
+	width:220px;
+	margin-top:150px;
+	margin-left:70px
+}
+#lasagna{
+	position:absolute;
+	height:220px;
+	width:220px;
+	margin-top:150px;
+	margin-left:170px
+}
+
+#coke{
+	position:absolute;
+	height:200px;
+	width:200px;
+	margin-bottom:800px;
+	margin-left:10px;
+}
+#water{
+	position:absolute;
+	height:200px;
+	width:200px;
+	margin-bottom:800px;
+	margin-left:10px;
+}
+#sprite{
+	position:absolute;
+	height:200px;
+	width:200px;
+	margin-top:0px;
+	margin-left:10px;
+}
+table{
+	width:95%;
+	border-collapse: collapse;
+	
+}
+td, th{
+	border: 1px solid #ddd;
+	padding 8px;
+}
+
+tr:nth-child(even){background-color: #f2f2f2;}
+tr:hover {background-color: #ddd;}
+
+td{
+	text-align:center;
+	padding-bottom:6px;
+	padding-top:6px;
+}
+
+th{
+	padding-top:10px;
+	padding-bottom:10px;
+	text-align:center;
+	background-color:#000000;
+	color:white;
+}
+
+#tax{
+	position:absolute;
+	margin-left:1340px;
+	margin-top:300px;
+}
+#order, #play1, #play2{
+	margin-top:20px;
+}
+#play3, #play4, #refresh{
+	position:absolute;
+	margin-top:0px;
+}
+

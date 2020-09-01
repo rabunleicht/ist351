@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<head>
+<link rel="stylesheet" type"text/css" href="menu.css">
+
+<title> Rabun's menu </title>
+<h1>Rabun's Menu</h1>
+<h4>click to eat! </h4>
+</head>
+<body>
+<script src="RestaurantArrays.js"></script>
+
+<audio id="yeahbaby">
+	<source src = "trapqueen.mp3" type ="audio/mpeg">
+</audio>
+<script>
+var myMusic = document.getElementById("yeahbaby");
+function playAudio(){
+myMusic.play();
+}
+function pauseAudio(){
+myMusic.pause();
+}
+</script>
+
+<form>
+	
+	<div id="body">
+	<table>
+	
+	<tr>
+		<th>Item</th>
+		<th>Description</th>
+		<th>price</th>
+	</tr>
+	
+	<tr>
+	<div>
+	<td id="food"><input type = "checkbox" id = "item1" class = "checks" value = ItemName[0] name="Asparagus" >
+	<label for = "item1" > <b> Asparagus </b> </label></td>
+	<td id = "description"><script> document.write(ItemDescription[0]); </script></td>
+	<td id="price"><script> document.write(ItemPrice[0]); </script></td>
+	</div>
+	<br>
+	</tr>
+	
+	<tr>
+	<div>
+	<td id="food"><input type = "checkbox" id = "item2" class ="checks" value = ItemName[1] name="Baked Potato">
+	<label for = "item2"> <b> Baked Potato </b> </label></td>
+	<td id="description"><script> document.write(ItemDescription[1]);</script></td>
+	<td  id="price"><script> document.write(ItemPrice[1]); </script></td>
+	</div>
+	<br>
+	</tr>
+	
+	
+	<tr>
+	<div>
+	<td id="food"><input type = "checkbox" id = "item3" class="checks" value = ItemName[2] name= "Broccoli">
+	<label for = "item3"> <b> Broccoli </b> </label></td>
+	<td id="description"><script> document.write(ItemDescription[2]);</script></td>
+	<td id = "price"><script id="price"> document.write(ItemPrice[2]); </script></td>
+	</div>
+	<br>
+	</tr>
+	
+	
+	<tr>
+	<div>
+	<td id = "food"><input type = "checkbox" id = "item4" class="checks" value = ItemName[3] name ="Carrots">
+	<label for = "item4"><b> Carrots </b></label></td>
+	<td id="description"><script> document.write(ItemDescription[3]);</script></td>
+	<td id = "price"><script> document.write(ItemPrice[3]); </script></td>
+	</div>
+	<br>
+	</tr>
+	
+	
+	<tr>
+	<div>
+	<td id = "food"><input type = "checkbox" id = "item5" class="checks" value = ItemName[4] name ="Chicken Fingers">
+	<label for = "item5"> <b> Chicken Fingers </b> </label></td>
+	<td id = "description"><script> document.write(ItemDescription[4]);</script></td>
+	<td id = "price"><script> document.write(ItemPrice[4]); </script></td>
+	</div>
+	<br>
+	</tr>
+	
+	
+	<tr>
+	<div>
+	<td id="food"><input type = "checkbox" id = "item6" class="checks" value = ItemName[5] name= "Cordon Bleu">
+	<label for = "item6"><b> Cordon Bleu </b></label></td>
+	<td id ="description"><script> document.write(ItemDescription[5]);</script></td>
+	<td id = "price"><script> document.write(ItemPrice[5]); </script></td>
+	</div>
+	<br>
+	</tr>
+	
+	
+	<tr>
+	<div>
+	<td id ="food"><input type = "checkbox" id = "item7" class ="checks" value = ItemName[6] name = "French Fries">
+	<label for = "item7"><b> French Fries </b></label></td>
+	<td id = "description"><script> document.write(ItemDescription[6]);</script></td>
+	<td id = "price"><script>document.write(ItemPrice[6]); </script></td>
+	</div>
+	</tr>
+	<br>
+	
+	
+	<tr>
+	<div>
+	<td id = "food"><input type = "checkbox" id = "item8" class="checks" value = ItemName[7] name = "Green Beans">
+	<label for = "item8"><b> Green Beans </b></label></td>
+	<td id = "description"><script> document.write(ItemDescription[7]);</script></td>
+	<td id = "price"><script>document.write(ItemPrice[7]); </script></td>
+	</div>
+	</tr>
+	<br>
+	
+	
+	<tr>
+	<div>
+	<td id = "food"><input type = "checkbox" id = "item9" class="checks" value = ItemName[8] name = "Hamburger">
+	<label for = "item9"><b> Hamburger </b> </label></td>
+	<td id = "description"><script> document.write(ItemDescription[8]);</script></td>
+	<td id = "price"><script> document.write(ItemPrice[8]); </script></td>
+	</div>
+	<br>
+	</tr>
+	
+	
+	<tr>
+	<div>
+	<td id = "food"><input type = "checkbox" id = "item10" class="checks" value = ItemName[9] name = "Lasagna">
+	<label for = "item10"><b> Lasagna </b></label></td>
+	<td id= "description"><script> document.write(ItemDescription[9]);</script></td>
+	<td id = "price"><script>document.write(ItemPrice[9]); </script></td>
+	</div>
+	<br>
+	</tr>	
+	
+	
+	<tr>
+	<div>
+	<td id = "food"><input type = "checkbox" id = "item11" class="checks" value = ItemName[10] name = "Coke">
+	<label for = "item11"><b> Coke </b></label></td>
+	<!--<td id= "description"><script> document.write(ItemDescription[10]);</script></td>
+	<td id = "price"><script>document.write(ItemPrice[9]); </script></td>-->
+	</div>
+	<br>
+	</tr>
+	
+	
+	<tr>
+	<div>
+	<td id = "food"><input type = "checkbox" id = "item12" class="checks" value = ItemName[11] name = "Water">
+	<label for = "item12"><b> Water </b></label></td>
+	<!--<td id= "description"><script> document.write(ItemDescription[9]);</script></td>
+	<td id = "price"><script>document.write(ItemPrice[9]); </script></td>-->
+	</div>
+	<br>
+	</tr>
+	
+	
+	<tr>
+	<div>
+	<td id = "food"><input type = "checkbox" id = "item13" class="checks" value = ItemName[12] name = "Sprite">
+	<label for = "item13"><b> Sprite </b></label></td>
+	<!--<td id= "description"><script> document.write(ItemDescription[9]);</script></td>
+	<td id = "price"><script>document.write(ItemPrice[9]); </script></td>-->
+	</div>
+	<br>
+	</tr>
+	</table>
+	
+	<div>
+	<input id = "order" type="button" value="Order Food" onclick = "getItems();	">
+	<button id = "play1" onclick="playAudio();" type="button">Play Audio</button>
+	<button id = "play2" onclick ="pauseAudio();" type ="button">Pause Audio</button>
+	<button id = "checkall" onclick = "selectAll();" type = "button"> Select All </button>
+	<!--<a href="#" onclick = "getItems();return false;">Order</a>-->
+	</div>
+	</div>
+
+	
+	<div id="plate">
+		<img id= "platter" src="platter.jpg">
+		<img id = "fork" src ="Fork.gif">
+		<img id="saladfork" src ="saladfork.gif">
+		<img id="knife" src ="knife.gif">
+		<img id="soupspoon" src ="soupspoon.gif">
+		<img id="spoon" src = "spoon.gif">
+		<img id="paper2" src = "paper2.gif">
+		
+		<!--<button id = "play3" onclick="playAudio();" type="button">Play Audio</button>
+		<button id = "play4" onclick ="pauseAudio();" type ="button">Pause Audio</button>-->
+		<button id = "refresh" onclick ="window.location.reload();"> Go Back </button>
+		
+		
+	</div>
+	<div id="bill">
+	
+	</div>
+	<div id ='billprice'>
+	</div>
+	<div id = 'tax'>
+	</div>
+	
+	<div id = "apsaragus">
+	<img id="asparagus" src="asparagus.gif" onclick = "byeOne()" class="fpic">
+	</div>
+	<div id = "bakedpotato">
+	<img id="bakedpotato" src="bakedpotatoe.gif" class="fpic" onclick = "byeTwo()">
+	</div>
+	<div id = "broccoli">
+	<img id="broccoli" src="broccoli.gif" class="fpic" onclick = "byeThree()">
+	</div>
+	<div id = "carrots">
+	<img id="carrots" src="carrots.gif" class="fpic" onclick = "byeFour()">
+	</div>
+	<div id = "chickenfingers">
+	<img id="chickenfingers" src="chickenfingers.gif" class="fpic" onclick = "byeFive()">
+	</div>
+	<div id = "cordonbleu">
+	<img id="cordonbleu" src="cordonbleu.gif" class="fpic" onclick = "byeSix()">
+	</div>
+	<div id = "frenchfries">
+	<img id="frenchfries" src="frenchfries.gif" class="fpic" onclick = "byeSeven()">
+	</div>
+	<div id = "greenbeans">
+	<img id="greenbeans" src="greenbeans.gif"class="fpic" onclick = "byeEight()">
+	</div>
+	<div id = "hamburger">
+	<img id="hamburger" src="hamburger.gif"class="fpic" onclick = "byeNine()">
+	</div>
+	<div id = "lasagna">
+	<img id="lasagna" src="lasagna.gif"class="fpic" onclick = "byeTen()">
+	</div>
+	<div id = "coke">
+	<img id="coke" src="coke.png" class="fpic" onclick = "byeEleven()">
+	</div>
+	<div id = "water">
+	<img id="water" src="water.png"class="fpic" onclick = "byeTwelve()">
+	</div>
+	<div id = "sprite">
+	<img id="sprite" src="sprite.png"class="fpic" onclick = "byeThriteen()">
+	</div>
+
+
+
+<script>
+	var x = document.getElementById("plate");
+		x.style.display ="none";
+</script>
+<script>	
+	var a = document.getElementById("asparagus");
+		a.style.display ="none";
+</script>
+<script>	
+	var b = document.getElementById("bakedpotato");
+		b.style.display ="none";
+</script>
+<script>	
+	var d = document.getElementById("broccoli");
+		d.style.display ="none";
+</script>
+<script>	
+	var e = document.getElementById("carrots");
+		e.style.display ="none";
+</script>
+<script>	
+	var f = document.getElementById("chickenfingers");
+		f.style.display ="none";
+</script>
+<script>	
+	var g = document.getElementById("cordonbleu");
+		g.style.display ="none";
+</script>
+<script>	
+	var h = document.getElementById("frenchfries");
+		h.style.display ="none";
+</script>
+<script>	
+	var j = document.getElementById("greenbeans");
+		j.style.display ="none";
+</script>
+<script>	
+	var k = document.getElementById("hamburger");
+		k.style.display ="none";
+</script>
+<script>	
+	var l = document.getElementById("lasagna");
+		l.style.display ="none";
+</script>
+<script>	
+	var m = document.getElementById("coke");
+		m.style.display ="none";
+</script>
+<script>	
+	var n = document.getElementById("water");
+		n.style.display ="none";
+</script>
+<script>	
+	var o = document.getElementById("sprite");
+		o.style.display ="none";
+</script>
+
+		
+</form>
+
+
+
+
+</body>
+
+
+</html>
